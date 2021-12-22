@@ -1,7 +1,7 @@
 # Board specific SELinux policy variable definitions
-SEPOLICY_PATH:= device/qcom/sepolicy_vndr
-QSSI_SEPOLICY_PATH:= device/qcom/sepolicy
-SYS_ATTR_PROJECT_PATH := $(TOP)/device/qcom/sepolicy/generic/public/attribute
+SEPOLICY_PATH:= device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr
+QSSI_SEPOLICY_PATH:= device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy
+SYS_ATTR_PROJECT_PATH := $(TOP)/device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy/generic/public/attribute
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
     $(SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS) \
     $(QSSI_SEPOLICY_PATH)/generic/public \
